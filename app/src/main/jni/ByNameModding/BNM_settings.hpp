@@ -1,6 +1,6 @@
 /********** USER AREA **************/
 
-//#define UNITY_VER 171 // 2017.1.x
+#define UNITY_VER 171 // 2017.1.x
 //#define UNITY_VER 172 // From 2017.2.x to 2017.4.x
 //#define UNITY_VER 181 // 2018.1.x
 //#define UNITY_VER 182 // 2018.2.x
@@ -9,7 +9,7 @@
 //#define UNITY_VER 193 // 2019.3.x
 //#define UNITY_VER 194 // 2019.4.x
 //#define UNITY_VER 201 // 2020.1.x
-#define UNITY_VER 202 // From 2020.2.x to 2020.3.x (They are same)
+//#define UNITY_VER 202 // From 2020.2.x to 2020.3.x (They are same)
 //#define UNITY_VER 211 // 2021.1.x
 //#define UNITY_VER 212 // 2021.2.x
 //#define UNITY_VER 213 // 2021.3.x - 2022.1.x

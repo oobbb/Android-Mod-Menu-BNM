@@ -30,7 +30,18 @@ void *hack_thread(void *) {
     LOGI(OBFUSCATE("%s has been loaded"), (const char *) targetLibName);
 #if defined(__aarch64__)
 #define BNM_USE_APPDOMAIN
+
+
+
+
+
 #else
+
+
+
+
+
+
     LOGI(OBFUSCATE("Done"));
 #endif
     DetachIl2Cpp();
