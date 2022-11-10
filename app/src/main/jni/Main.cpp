@@ -19,6 +19,11 @@
 #define targetLibName OBFUSCATE("libil2cpp.so")
 #include "Includes/Macros.h"
 #define HOOKBNM(Namespace,Class,Method,count,newfun,oldfun) DobbyHook((void *)LoadClass(Namespace, Class).GetMethodByName(OBFUSCATE_BNM(Method), count).GetOffset(), (void *)newfun, (void **)&oldfun);
+
+
+
+
+
 void *hack_thread(void *) {
     using namespace BNM;
     LOGI(OBFUSCATE("pthread created"));
@@ -31,16 +36,7 @@ void *hack_thread(void *) {
 #if defined(__aarch64__)
 #define BNM_USE_APPDOMAIN
 
-
-
-
-
 #else
-
-
-
-
-
 
     LOGI(OBFUSCATE("Done"));
 #endif
